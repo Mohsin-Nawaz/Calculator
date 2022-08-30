@@ -1,0 +1,81 @@
+.container{
+    width:600px;
+    margin:auto;
+}
+.calculatorbody{
+    border:2px solid rgba(10, 56, 70, 0.877);
+    padding: 10px;
+    background-color: rgba(12, 13, 107, 0.767);
+    text-transform: uppercase;
+    color: rgba(218, 218, 213, 0.815);
+}
+.title{
+    font-size: 32px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(14, 17, 145, 0.767);
+    font-weight: bolder;
+}
+.calculatorscreen{
+    border: 1px solid black;
+    padding: 5px 2px;
+    background-color: rgba(85, 85, 88, 0.767);
+}
+#screeninput{
+text-align: left;
+
+}
+#screenans{
+    text-align: right;
+}
+#screeninput,#screenans{
+    border: none;
+    outline: none!important;
+    background-color: transparent;
+    color:white;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+
+.mainbody{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.line1{
+    padding: 0px;
+    display: flex;
+    justify-content:space-between;
+    width: 100%!important;
+}
+.line1 button{
+    width:33%;
+}
+.numpad,.functions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 22px;
+    color: black;
+}
+.numpad{
+    width: 70%;
+}
+button{
+    padding: 6px 6px;
+    text-align: center;
+    margin-top: 4px;
+    outline: none!important;
+    background-color: wheat;
+}
+.numpad button{
+    width: 33%;
+}
+.functions{
+    width: 29.5%;
+}
+.functions button{
+    width: 49%;
+}

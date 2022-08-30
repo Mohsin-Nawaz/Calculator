@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Assignment-1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body onkeypress="readInput(event)" >
+        <div class="container">
+            <div class="calculator">
+                <div class="title">CALCULATOR</div>
+                <div class="calculatorbody">
+                    <div class="calculatorscreen">
+                        <input type="text" id='screeninput'>
+                        <input type="text" id="screenans" readonly>  
+                    </div>
+                    <div class="mainbody">
+                        <div class="line1">
+                            <button id="switch" onclick="mouse('o')">on/off</button>
+                            <button id="reset" onclick="mouse('R')">Reset</button>
+                            <button id="brackets" onclick="mouse('()')">()</button>
+                        </div>
+                        <div class="numpad">
+                            <button id="one" onclick='mouse(this.innerHTML)'>1</button>
+                            <button id="two" onclick='mouse(this.innerHTML)'>2</button>
+                            <button id="three" onclick='mouse(this.innerHTML)'>3</button>
+                            <button id="four" onclick='mouse(this.innerHTML)'>4</button>
+                            <button id="five" onclick='mouse(this.innerHTML)'>5</button>
+                            <button id="six" onclick='mouse(this.innerHTML)'>6</button>
+                            <button id="seven" onclick='mouse(this.innerHTML)'>7</button>
+                            <button id="eight" onclick='mouse(this.innerHTML)'>8</button>
+                            <button id="nine" onclick='mouse(this.innerHTML)'>9</button>
+                            <button id="zero" onclick='mouse(this.innerHTML)'>0</button>
+                            <button id="point" onclick='mouse(this.innerHTML)'>.</button>
+                            <button id="ans" onclick="mouse('A')">Ans</button>
+                        </div>
+                        <div class="functions">
+                            <button id="add" onclick='mouse(this.innerHTML)'>+</button>
+                            <button id="sqrt" onclick="mouse('s')">sqrt</button>
+                            <button id="subtrct"  onclick='mouse(this.innerHTML)'>-</button>
+                            <button id="power" onclick="mouse('^')">x<sup>n</sup></button>
+                            <button id="multiply" onclick='mouse(this.innerHTML)'>*</button>
+                            <button id="modulus" onclick='mouse(this.innerHTML)'>%</button>
+                            <button id="divide" onclick='mouse(this.innerHTML)'>/</button>
+                            <button id="equal" onclick='mouse(this.innerHTML)'>=</button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </body>
+    <script src="css/js1.js"></script>
+</html>
